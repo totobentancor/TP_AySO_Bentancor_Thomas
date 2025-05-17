@@ -1,0 +1,262 @@
+1  whoami
+    2  who
+    3  id
+    4  w
+    5  last
+    6  uname
+    7  uname -a
+    8  cat
+    9  cat /proc/cpiinfo
+   10  cat /proc/cpuinfo
+   11  cat /proc/meminfo
+   12  cat /proc/partitions
+   13  cat /proc/partions
+   14  free -h
+   15  df -h
+   16  lscpu
+   17  ps aux
+   18  ttop
+   19  top
+   20  history
+   21  ls -l
+   22  pwd
+   23  whoami
+   24  man
+   25  man man
+   26  ls
+   27  ls -la
+   28  cd Documents
+   29  ls -la
+   30  cd ..
+   31  cat /etc/group
+   32  ls -l
+   33  cat /etc/group | more
+   34  mkdir clase4
+   35  ls -l
+   36  cd clase4
+   37  cat > archivo1.txt
+   38  ls -l
+   39  ls -la
+   40  ls -ls
+   41  cat archivo1.txt
+   42  cat << archivo1.txt
+   43  linea1
+   44  linea2
+   45  linea3
+   46  ls
+   47  cat archivo1.txt
+   48  cat << FIN >archivo2.txt
+   49  linea4
+   50  linea5
+   51  linea6
+   52  FIN
+   53  ls -l
+   54  cat archivo1.txt > archivo3.txt
+   55  ls -l
+   56  cat archivo3.txt
+   57  cat archivo1.txt
+   58  cat archivo2.txt >> archivo3.txt
+   59  car archivo3.txt
+   60  cat archivo3.txt
+   61  cat archivo1.txt >archivo3.txt
+   62  car archivo3.txt
+   63  cat archivo3.txt
+   64  car archivo2.txt archivo1.txt > archivo4.txt
+   65  cat archivo2.txt archivo1.txt > archivo4.txt
+   66  cat archivo4.txt
+   67  cat archivo1.txt archivo2.txt > archivo4.txt
+   68  cat archivo4.txt
+   69  grep 6 archivo4.txt
+   70  grep -v 6 archivo4.txt
+   71  grep -n 6 archivo4.txt
+   72  grep linea archivo4.txt
+   73  grep -i linea archivo4.txt
+   74  grep -i Linea archivo4.txt
+   75  grep -i -c Linea archivo4.txt
+   76  grep -i -c 6 archivo4.txt
+   77  cat /proc/cpuinfo
+   78  touch vacio.txt
+   79  ls -l
+   80  cp archivo1.txt copia1.txt
+   81  ls -l
+   82  cat copia1.txt
+   83  mkdir vacia
+   84  ls -l
+   85  ls -l vacia/
+   86  mv vacio.txt vacio/
+   87  mc vacio.txt vacia/
+   88  mv vacio.txt vacia/
+   89  ls -l
+   90  ls -l vacia/
+   91  rmdir vacia/
+   92  rm -r vacia/
+   93  ls -l
+   94  mkdir dir1 dir2 dir3
+   95  ls -l
+   96  tree
+   97  sudo apt install tree
+   98  tree
+   99  mkdir -p alumnos/alum1/teoria
+  100  tree
+  101  mkdir -p {teoria,practica}/{clase1,clase2,clase2}
+  102  tree
+  103  mkdir -p {compras/{remitos,facturas},ventas/{remitos,facturas,nc}}
+  104  tree
+  105  whoami
+  106  id
+  107  cat /etc/passwd
+  108  grep oxboxes /etc/passwd
+  109  cat oxboxes /etc/grouo
+  110  cat oxboxes /etc/group
+  111  cat oxboxes /etc/shadow
+  112  sudo cat oxboxes /etc/shadow
+  113  groupadd Alumnos
+  114  sudo groupadd Alumnos
+  115  osboce
+  116  sudo groupadd Alumnos
+  117  cd clase4
+  118  tree
+  119  sudo groupadd Alumnos
+  120  grouppadd Alumnos
+  121  groupadd Alumnos
+  122  useradd -m -s /bin/bash -c "Alumno pepe" -G Alumnos pepe
+  123  ~useradd -m -s /bin/bash -c "Alumno thomas" -G Alumnos thomas
+  124  ~useradd -m -s /bin/bash -c "Alumno thomas" -G 
+  125  ~useradd -m -s /bin/bash -c "Alumno thomas" -g 
+  126  ~useradd -m -s/bin/bash -c "Alumno thomas" -G
+  127  ~useradd -m -s /bin/bash -c "Alumno thomas" -G Alumnos thomas
+  128  ~useradd -m -s /bin/bash -c "Alumno thomas" -G Alumnos
+  129  ~useradd -m -s /bin/bash -c "Alumno thomas" -G Alumnos thomas
+  130  useradd -m -s /bin/bash -c "Alumno thomas" -G Alumnos thomas
+  131  sudo useradd -m -s /bin/bash -c "Alumno thomas" -G Alumnos thomas
+  132  grep thomas /etc/passwd
+  133  grep -i alumnos /etc/group
+  134  id
+  135  ls -l /home
+  136  paswd thomas
+  137  passwd thomas
+  138  sudo passwd thomas
+  139  su thomas
+  140  log out
+  141  sudo apt install git
+  142  sudo apt install tree
+  143  ssh-keygen -t ed25519
+  144  cat $HOME/.ssh/*.pub
+  145  mkdir repogit
+  146  cd repogit
+  147  gt clone git@github.com:totobentancor/TP_AySO_Bentancor_Thomas.git
+  148  git clone git@github.com:totobentancor/TP_AySO_Bentancor_Thomas.git
+  149  pwd
+  150  ls -l
+  151  cd TP_AySO_Bentancor_Thomas/
+  152  ls -l
+  153  cd ..
+  154  man grep
+  155  grep -i Home_url /etc/os-release
+  156  grep <parámetro> Home_url /etc/os-release >
+  157  grep -i Home_url /etc/os-release >
+  158  datos_url.txt
+  159* grep -i Home_url/etc/os-release > datos_url.txt
+  160  cd ..
+  161  ls -l
+  162* grep
+  163  cd repogit
+  164  cd TP_AySO_Bentancor_Thomas/
+  165  ls -l
+  166  cd ..
+  167  cd TP_AySO_Bentancor_Thomas/
+  168  grep <parámetro> Home_url /etc/os-release > datos_url.txt
+  169  grep -i Home_url /etc/os-release > datos_url.txt
+  170  ls -l
+  171  cat datos_url.txt 
+  172  git status
+  173  git add .
+  174  git commit -m "ADD: agregado 1er ejercicio sobre datos_url.txt"
+  175  git config --global user-email "totobentancorfacu16@gmail.com"
+  176  git config --global user.name "totobentancor"
+  177  git config --global user.email "totobentancorfacu16@gmail.com"
+  178  git commit -m "ADD: agregado 1er ejercicio sobre datos_url.txt"
+  179  git status
+  180  git push
+  181  ls -l
+  182  whoami
+  183  usuario:thomas
+  184  echo “Usuario=$(whoami)” > datos_usuario.tx
+  185  whoami
+  186  pwd
+  187  git status
+  188  car datos_usuario.tx 
+  189  cat datos_usuario.tx 
+  190  git add .
+  191  git commit -m "ADD: agregado 1er ejercicio sobre datos_url.txt"
+  192  git push
+  193  grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+  194  cat datos_usuarios.txt
+  195  git status
+  196  git add .
+  197  git commit -m "Informacion de la PC"
+  198  git push
+  199  cat <<EOF >> README.md
+Alumno: Thomas
+División: 211
+Turno: tarde
+EOF
+
+  200  ls -l
+  201  cat README.md 
+  202  git status
+  203  git add .
+  204  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+  205  git push
+  206  nano README.md
+  207  cat README.md
+  208  git status
+  209  git add .
+  210  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+  211  git push
+  212  ls -l
+  213  cat README.
+  214  cat README.m
+  215  cat README.md
+  216  rm README.
+  217  rm README.m
+  218  cat README.md
+  219  ls -l
+  220  git status
+  221  git add .
+  222  git push
+  223  git status
+  224  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+  225  git push
+  226  pwd
+  227  mkdir -p {materia1,materia2}/uni{1..3}
+  228  tree
+  229  echo "mkdir -p {materia1,materia2}/uni{1..3}" > script_dir.sh
+  230  git status
+  231  git add .
+  232  chmod +x script_dir.sh
+  233  git status
+  234  tree
+  235  cat script_dir.sh 
+  236  git add .
+  237  git commit -m "ADD: Añadiendo script"
+  238  git push
+  239  cd ..
+  240  pwd
+  241  history
+  242  cp ~/.bash_history ./Historial_comandos_Bentancor.txt
+  243  git status
+  244  cd repogit
+  245  history
+  246  cat TP_AySO_Bentancor_Thomas/
+  247  cd TP_AySO_Bentancor_Thomas/
+  248  cp ~/.bash_history ./Historial_comandos_Apellido.txt
+  249  ls -l
+  250  cat Historial_comandos_Apellido.txt 
+  251  history
+  252  cp ~/.bash_history ./Historial_comandos_Apellido.txt
+  253  cat Historial_comandos_Apellido.txt 
+  254  ls -l
+  255  nano Historial_comandos_Apellido.txt 
+  256  history
+
